@@ -6,4 +6,12 @@
 
 # first / disign how it looks and the structure looks
 # أولاّ / تصميم شكل الجسم والهيكل
- = ا
+ 
+
+= s
+=s
+. g
+.g
+( o
+(o
+    f
