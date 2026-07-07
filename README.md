@@ -1,1 +1,1 @@
-# Task-1-mechnic-
+                                        Task 1 -> Making a preliminary design of a dog robot
