@@ -2,6 +2,8 @@
 # المهمة الأولى تصميم أولي لكلب روبوت
 
 
+#
+
 # first / disign how it looks and the structure looks
 # أولاّ / تصميم شكل الجسم والهيكل
-#
+ = ا
