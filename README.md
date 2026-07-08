@@ -43,3 +43,4 @@ Once they land, it lifts and swings the Front-Left and Hind-Left legs forward.
 ![img alt](https://github.com/taleensami001-lgtm/Dog-robot/blob/1451e1dd75e799fe8472d960a482e7eb0d847dd0/IMG_1829.jpeg)
 
 
+### **3 / 
