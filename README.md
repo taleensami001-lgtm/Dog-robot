@@ -53,3 +53,6 @@ Once they land, it lifts and swings the Front-Left and Hind-Left legs forward.
 - For the leg movement of a quadruped robot, traditional small servo motors or standard DC motors are not used, because the robot's legs are subjected to continuous impacts with the ground, requiring immense torque and an extremely fast response.
   
 - لحركة أرجل كلب الروبوت (Quadruped Robot)، لا يتم استخدام محركات السيرفو التقليدية الصغيرة أو محركات الDC العادية، لأن أرجل الروبوت تتعرض لصدمات مستمرة مع الأرض وتحتاج إلى عزم دوران هائل واستجابة سريعة جداً.
+
+
+### **5 / Initial torque of a joint خامسا / العزم المبدئي لأحد المفاصل**
