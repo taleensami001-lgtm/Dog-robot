@@ -144,6 +144,21 @@ Now, we multiply the mass in kilograms by the standard gravitational acceleratio
 
 ### **6 / Stability and the Center of Gravity of the robot سادسا / الثبات ومركز الجاذبيه لدى الروبوت**
 
+
+- Center of Gravity (CoG)
+
+• Theoretical Location: In a rectangular body with uniform mass distribution, the Center of Gravity is located exactly at the geometric center (the intersection of the diagonals in the middle of the chassis).
+• Actual Location: This center shifts depending on the placement of heavy components. For example, heavy motors (such as high-torque BLDC motors typically used in the leg joints) and batteries will pull the CoG towards them.
+• Rule of Thumb: The lower the CoG (closer to the ground) and the more centered it is within the chassis, the greater the robot's resistance to tipping over or losing balance.
+
+
+- Stability 
+The stability of the robot depends on a geometric and physical principle known as the Support Polygon. This is the 2D ground area formed by drawing imaginary lines connecting the contact points of the robot's feet with the ground.
+Based on the robot's movement, stability is divided into two main types:
+• Static Stability: When the robot stands on all four legs, the support polygon forms a rectangle. The robot is completely stable as long as the vertical projection of its CoG falls within the boundaries of this rectangle. If the robot lifts one leg to walk slowly, the support polygon turns into a triangle; to avoid falling, the robot's movement must be programmed so that its body leans slightly, shifting the CoG inside this new triangle before lifting the leg.
+• Dynamic Stability: When the robot dog moves faster, such as in a trotting gait (Trot), it lifts two diagonally opposite legs at the same time. In this case, the support polygon shrinks to a mere diagonal straight line. Here, the robot temporarily loses its static stability and relies on its continuous kinetic balance and forward momentum to avoid falling, rapidly switching the legs in contact with the ground before it loses balance.
+
+
 - مركز الجاذبية (Center of Gravity - CoG)
 • الموقع النظري: في الجسم المستطيل ذي التوزيع المتساوي للكتلة، يقع مركز الجاذبية في المركز الهندسي تماماً (نقطة تقاطع الأقطار في منتصف الهيكل).
 • الموقع الفعلي: يتغير هذا المركز استجابةً لأماكن تمركز الأجزاء الثقيلة. على سبيل المثال، المحركات الثقيلة (مثل محركات BLDC ذات عزم الدوران العالي المستخدمة عادةً في مفاصل الأرجل) والبطاريات ستسحب مركز الجاذبية نحوها.
@@ -156,4 +171,4 @@ Now, we multiply the mass in kilograms by the standard gravitational acceleratio
 • الثبات الساكن (Static Stability): عندما يقف الروبوت على أرجله الأربعة، يشكل مضلع الدعم مستطيلاً. يكون الروبوت مستقراً تماماً طالما أن الإسقاط العمودي لمركز جاذبيته يسقط داخل حدود هذا المستطيل. وإذا رفع الروبوت رجلاً واحدة للمشي ببطء، يتحول مضلع الدعم إلى مثلث؛ ولتجنب السقوط، يجب أن تُبرمج حركة الروبوت بحيث يميل جسمه قليلاً لينزاح مركز الجاذبية إلى داخل هذا المثلث الجديد قبل رفع الرجل.
 • الثبات الديناميكي (Dynamic Stability): عندما يتحرك الروبوت الكلب بسرعة أكبر، مثل الهرولة (Trot)، فإنه يرفع رجلين متقابلتين قطرياً في نفس الوقت. في هذه الحالة، يتقلص مضلع الدعم ليصبح مجرد خط مستقيم قطري. هنا يفقد الروبوت ثباته الساكن بشكل مؤقت، ويعتمد على توازنه الحركي المستمر والقصور الذاتي لعدم السقوط، وذلك بتبديل الأرجل الملامسة للأرض بسرعة قبل أن يختل توازنه.
 
-
+![img alt](
