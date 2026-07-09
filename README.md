@@ -62,12 +62,19 @@ Once they land, it lifts and swings the Front-Left and Hind-Left legs forward.
 - Torque Calculation for a 3D-Printed Plastic Component
 1. Determining Torque
 To calculate the torque (t), we must first determine the applied force (F) and the perpendicular distance (d) from the axis of rotation (the pivot). The formula for torque is:
+
  **t = Fd**
+
 2. Calculating Force
 The applied force (in this case, weight) is the product of the object's mass (m) and the acceleration due to gravity (g).
+
  **F = mg**
+
 3. Calculating Volume
 To find the mass, we must first calculate the volume (V) of the object. The volume of a rectangular prism is calculated by multiplying its length, width, and height: 
+
  **V = lengh X width X height**
  
- - and that is my Robot's length , width and height ;
+ - and that is my Robot's length , width and height in : 
+
+![img alt](https://github.com/taleensami001-lgtm/Dog-robot/blob/2e326a0cf153084ae895d28993d6b05be3f497ac/IMG_6012.jpeg)
